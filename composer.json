@@ -1,0 +1,29 @@
+{
+    "name": "symfonyx/elasticsearch-service-provider",
+    "description": "Elasticsearch service provider for Silex",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "silex",
+        "elastic",
+        "elasticsearch"
+    ],
+    "authors": [
+    	{
+            "name": "Alex Zet",
+            "email": "zetdev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "silex/silex": "~2.0",
+        "elasticsearch/elasticsearch": "~5.0"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Symfonyx\\Silex\\": "src/"
+        }
+    }
+}
