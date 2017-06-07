@@ -19,8 +19,6 @@
         "silex/silex": "~2.0",
         "elasticsearch/elasticsearch": "~5.0"
     },
-    "prefer-stable": true,
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Symfonyx\\Silex\\": "src/"
