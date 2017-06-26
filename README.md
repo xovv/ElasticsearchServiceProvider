@@ -7,7 +7,7 @@
 ```json
 {
     "require": {
-        "symfonyx/elasticsearch-service-provider": "dev-master"
+        "symfonyx/elasticsearch-service-provider": "1.x-dev"
     }
 }
 ```
