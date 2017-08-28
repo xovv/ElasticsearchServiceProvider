@@ -1,6 +1,6 @@
 <?php
 
-namespace Symfonyx\Silex;
+namespace xovv\Silex;
 
 use InvalidArgumentException;
 use Pimple\Container;
@@ -9,7 +9,7 @@ use Elasticsearch\ClientBuilder;
 
 /**
  * Silex Elasticsearch component Provider.
- * @package Symfonyx\Silex
+ * @package xovv\Silex
  */
 class ElasticsearchServiceProvider implements ServiceProviderInterface
 {
