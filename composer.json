@@ -1,5 +1,5 @@
 {
-    "name": "symfonyx/elasticsearch-service-provider",
+    "name": "xovv/elasticsearch-service-provider",
     "description": "Elasticsearch service provider for Silex",
     "type": "library",
     "license": "MIT",
@@ -9,7 +9,7 @@
         "elasticsearch"
     ],
     "authors": [
-    	{
+        {
             "name": "Alex Zet",
             "email": "zetdev@gmail.com"
         }
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "xovv\\Silex\\": "src/"
+            "Xovv\\Silex\\": "src/"
         }
     },
     "extra": {

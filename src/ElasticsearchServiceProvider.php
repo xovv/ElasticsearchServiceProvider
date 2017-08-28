@@ -1,6 +1,6 @@
 <?php
 
-namespace xovv\Silex;
+namespace Xovv\Silex;
 
 use InvalidArgumentException;
 use Pimple\Container;
