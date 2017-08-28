@@ -14,6 +14,8 @@
             "email": "zetdev@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^5.6",
         "silex/silex": "~2.0",
@@ -21,7 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Xovv\\": "src/"
+            "Xovv\\Silex\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xovv\\Silex\\": "src/"
         }
     },
     "extra": {
