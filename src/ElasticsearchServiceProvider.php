@@ -9,7 +9,7 @@ use Elasticsearch\ClientBuilder;
 
 /**
  * Silex Elasticsearch component Provider.
- * @package xovv\Silex
+ * @package Xovv\Silex
  */
 class ElasticsearchServiceProvider implements ServiceProviderInterface
 {
