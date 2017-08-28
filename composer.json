@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Symfonyx\\Silex\\": "src/"
+            "xovv\\Silex\\": "src/"
         }
     },
     "extra": {
